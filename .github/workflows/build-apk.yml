@@ -1,4 +1,4 @@
-1name: Build V9 APK
+name: Build V9 APK
 
 on:
   workflow_dispatch:
