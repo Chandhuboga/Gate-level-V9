@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="today_quest"
+        android:enabled="true"
+        android:icon="@drawable/ic_system_notification"
+        android:shortcutShortLabel="@string/shortcut_today_short"
+        android:shortcutLongLabel="@string/shortcut_today_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.chandu.gatesystem"
+            android:targetClass="com.chandu.gatesystem.MainActivity">
+            <extra android:name="open_quest" android:value="true" />
+        </intent>
+    </shortcut>
+</shortcuts>
