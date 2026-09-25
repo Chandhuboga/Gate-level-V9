@@ -47,6 +47,7 @@ import com.chandu.gatesystem.data.DailyQuest
 import com.chandu.gatesystem.data.GaSet
 import com.chandu.gatesystem.data.Mastery
 import com.chandu.gatesystem.data.Achievements
+import com.chandu.gatesystem.data.AchievementStats
 import com.chandu.gatesystem.data.FormulaVault
 import com.chandu.gatesystem.notifications.SoundManager
 import com.chandu.gatesystem.notifications.SystemNotificationScheduler
